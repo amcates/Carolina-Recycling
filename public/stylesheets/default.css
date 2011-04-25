@@ -1,0 +1,173 @@
+/** BASIC */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+/** FORMS */
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.input1 {
+	width: 126px;
+	background: #FFFFFF;
+	border: 1px solid #E2D9CF;
+}
+
+/** HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+/** TEXTS */
+
+body, th, td, input, textarea, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #828282;
+}
+
+p, blockquote, ul, ol, dl {
+	margin-top: 0px;
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+.text1 {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #7E7D7C;
+}
+
+.text2 {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.text3 {
+	font-size: 11px;
+	font-weight: bold;
+	color: #4F9501;
+}
+
+.text4 {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: normal;
+	color: #4F9501;
+}
+
+.text5 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4F9501;
+}
+
+.text6 {
+	text-align: center;
+	font-size: 10px;
+	color: #B4D293;
+}
+
+.text7 {
+	text-align: center;
+}
+
+/** LINKS */
+
+a {
+	color: #4F9501;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.link1 {
+	display: block;
+	height: 11px;
+	background: url(../images/homepage09.gif) no-repeat right top;
+}
+
+.link1 b {
+	display: none;
+}
+
+.link2 {
+	text-decoration: none;
+	color: #FAF5EF;
+}
+
+.link2:hover {
+	text-decoration: underline;
+}
+
+/** STYLES */
+
+.style1 {
+}
+
+.style1 a {
+}
+
+.style1 a:hover {
+}
+
+/** BACKGROUNDS */
+
+.bg1 { background: url(../images/subpage02.jpg) no-repeat left top; }
+.bg2 { background: url(../images/subpage04.jpg) repeat-y left top; }
+.bg3 { background: url(../images/subpage06.jpg) no-repeat left top; }
+.bg4 { background: url(../images/subpage07.jpg) no-repeat left top; }
+.bg5 { background: url(../images/subpage09.jpg) no-repeat left top; }
+.bg6 { background: url(../images/homepage15.gif) repeat-y left top; }
+.bg7 { background: url(../images/homepage16.gif) repeat-x left top; }
+.bg_mountains { background: url(../images/bg_mountains.jpg) repeat-x left top; }
+
+/** MISC */
+
+.align-justify { text-align: justify; }
+.align-right { text-align: right; }
+
+img { border: none; }
+
+.img1 {
+	float: left;
+	margin: 3px 15px 0px 0px;
+}
+
+.img2 {
+	float: right;
+	margin: 3px 0px 0px 15px;
+}
+
+hr { display: none; }
+
+.hr1 {
+	height: 1px;
+	margin-bottom: 10px;
+	background: url(../images/homepage08.gif) repeat-x left top;
+}
+
+.hr2 {
+	height: 1px;
+	margin-bottom: 10px;
+	background: url(../images/homepage11.gif) repeat-x left top;
+}
+
+
+.even {
+  background: #ccc;
+}
+
+.odd {
+  background: #eee;
+}
