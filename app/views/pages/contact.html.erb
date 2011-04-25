@@ -1,16 +1,14 @@
 			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg5">
         <tr>
-					<td><table width="492" border="0" cellpadding="0" cellspacing="0" class="bg5">
+					<td><table width="778" border="0" cellpadding="0" cellspacing="0" class="bg5">
 							<tr>
 								<td width="20">&nbsp;</td>
-								<td width="472"><table width="472" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td width="341">&nbsp;</td>
-										</tr>
+                <td width="369" style="vertical-align:top;">
+                  <table width="350" border="0" cellspacing="0" cellpadding="0">
 										<tr valign="top">
 											<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
 													<tr>
-														<td><img src="../images/spacer.gif" alt="" width="25" height="35"></td>
+														<td><img src="../images/spacer.gif" alt="" width="25" height="20"></td>
 													</tr>
 													<tr>
 														<td class="text5">Contact</td>
@@ -20,104 +18,102 @@
 													</tr>
 													<tr>
                             <td><p>
-                              Thank you for visiting us at Carolina Recycling Company. We look forward to hearing
-                              from you.</p>
+                              Thank you for visiting us at Carolina Recycling Company. <br />
+                              We look forward to hearing from you.</p>
 													</tr>
 												</table></td>
 										</tr>
 									</table>
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
-											<td><table width="472" border="0" cellspacing="0" cellpadding="0">
-													<tr valign="top">
-														<td width="472"><table width="472" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-                                  <td>
-                                    <p>
-                                    Carolina Recycling Company<br />
-                                    11 Lambourn Way<br />
-                                    Greenville, SC 29615 <br />
-                                    (864) 991-5002 <br />
-                                    <%= mail_to "info@carolinarecyclingcompany.com" %>
-                                    </p>
-                                    <p> 
-                                    Caleb Lewis<br />
-                                    <%= mail_to "caleb@carolinarecyclingcompany.com" %>
-                                    </p>
+											<td>
+                        <table width="350" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td>
+                              <p>
+                              Carolina Recycling Company<br />
+                              11 Lambourn Way<br />
+                              Greenville, SC 29615 <br />
+                              (864) 991-5002 <br />
+                              <%= mail_to "info@carolinarecyclingcompany.com" %>
+                              </p>
+                              <p> 
+                              Caleb Lewis<br />
+                              <%= mail_to "caleb@carolinarecyclingcompany.com" %>
+                              </p>
 
-                                    <p>
-                                    Natalie Lewis<br />
-                                    <%= mail_to "Natalie@carolinarecyclingcompany.com" %>
-                                    </p>
-                                  </td>
-                                </tr>
-															</table></td>
-                            </tr>
-                            <tr>
-                             <td><img src="../images/spacer.gif" alt="" width="25" height="25"></td>
-                            </tr>
-
-                            <tr>
-                              <td>
-                              <p>Please fill out the following form and someone will contact you shortly.</p>
-                              <%= form_for @contact do |f| %>
-                                <table>
-                                  <tr>
-                                    <td>Name:</td>
-                                    <td><%= f.text_field :name %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Address:</td>
-                                    <td><%= f.text_field :address %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>City:</td>
-                                    <td><%= f.text_field :city %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>State:</td>
-                                    <td><%= f.text_field :state %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Zipcode:</td>
-                                    <td><%= f.text_field :zip_code %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Work Phone:</td>
-                                    <td><%= f.text_field :work_phone %></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Cell Phone:</td>
-                                    <td><%= f.text_field :cell_phone %></td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="2">
-                                      Message:
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="2">
-                                      <%= f.text_area :message, :rows => 10, :cols => 75 %>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="2">
-                                      <%= f.submit 'Contact Us' %>
-                                    </td>
-                                  </tr>
-                                </table>
-                              <% end %>
-                              </td>
-                            </tr>
-												</table></td>
-										</tr>
-										<tr>
-											<td>&nbsp;</td>
-										</tr>
-									</table></td>
-							</tr>
-						</table></td>
+                              <p>
+                              Natalie Lewis<br />
+                              <%= mail_to "Natalie@carolinarecyclingcompany.com" %>
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="../images/spacer.gif" alt="" width="25" height="25"></td>
+                    </tr>
+                  </table>
+              </td>
+              <td>
+              <img src="../images/spacer.gif" alt="" width="25" height="25">
+              <p>Please fill out the following form and someone will contact you shortly.</p>
+              <%= form_for @contact do |f| %>
+                <table>
+                  <tr>
+                    <td>Name:</td>
+                    <td><%= f.text_field :name %></td>
+                  </tr>
+                  <tr>
+                    <td>Address:</td>
+                    <td><%= f.text_field :address %></td>
+                  </tr>
+                  <tr>
+                    <td>City:</td>
+                    <td><%= f.text_field :city %></td>
+                  </tr>
+                  <tr>
+                    <td>State:</td>
+                    <td><%= f.text_field :state %></td>
+                  </tr>
+                  <tr>
+                    <td>Zipcode:</td>
+                    <td><%= f.text_field :zip_code %></td>
+                  </tr>
+                  <tr>
+                    <td>Work Phone:</td>
+                    <td><%= f.text_field :work_phone %></td>
+                  </tr>
+                  <tr>
+                    <td>Cell Phone:</td>
+                    <td><%= f.text_field :cell_phone %></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      Message:
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <%= f.text_area :message, :rows => 10, :cols => 65 %>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <%= f.submit 'Contact Us' %>
+                    </td>
+                  </tr>
+                </table>
+              <% end %>
+              </td>
+            </tr>
+            <tr>
+              <td width="20">&nbsp;</td>
+            </tr>
+          </td>
 				</tr>
-			</table></td>
+      </table>
+    </td>
 	</tr>
 </table>
