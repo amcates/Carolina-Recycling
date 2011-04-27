@@ -3,6 +3,6 @@ class ContactMailer < ActionMailer::Base
 
   def send_contact(contact)
     @contact = contact
-    mail(:to => ['amcates@gmail.com'], :subject => "Website Contact Request")
+    mail(:to => ['caleb@carolinarecyclingcompany.com', 'Natalie@carolinarecyclingcompany.com', 'info@carolinarecyclingcompany.com'], :subject => "Website Contact Request")
   end
 end
