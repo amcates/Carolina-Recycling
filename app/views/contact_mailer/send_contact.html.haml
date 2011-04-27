@@ -1,23 +1,27 @@
-Name:
-= @contact.name
-
-Address:
-= @contact.address
-
-City:
-= @contact.city
-
-State:
-= @contact.state
-
-Zipcode:
-= @contact.zip_code
-
-Work Phone:
-= @contact.work_phone
-
-Cell Phone:
-= @contact.cell_phone
-
-Message:
-= @contact.message
+%table
+  %tr
+    %td Name:
+    %td= @contact.name
+  %tr
+    %td Address:
+    %td= @contact.address
+  %tr
+    %td City:
+    %td= @contact.city
+  %tr
+    %td State:
+    %td= @contact.state
+  %tr
+    %td Zipcode:
+    %td= @contact.zip_code
+  %tr
+    %td Work Phone:
+    %td= @contact.work_phone
+  %tr
+    %td Cell Phone:
+    %td= @contact.cell_phone
+  %tr
+    %td Message:
+    %td
+  %tr
+    %td{:colspan => 2}= @contact.message
