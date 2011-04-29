@@ -6,6 +6,8 @@ gem 'heroku'
 gem 'haml'
 gem 'sass'
 gem 'mongrel'
+gem 'client_side_validations'
+gem 'jquery-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

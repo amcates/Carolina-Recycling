@@ -59,11 +59,15 @@
               <td>
               <img src="../images/spacer.gif" alt="" width="25" height="25">
               <p>Please fill out the following form and someone will contact you shortly.</p>
-              <%= form_for @contact do |f| %>
+              <%= form_for @contact, :validate => true do |f| %>
                 <table>
                   <tr>
-                    <td>Name:</td>
+                    <td>Name*:</td>
                     <td><%= f.text_field :name %></td>
+                  </tr>
+                  <tr>
+                    <td>E-mail*:</td>
+                    <td><%= f.text_field :email %></td>
                   </tr>
                   <tr>
                     <td>Address:</td>
@@ -102,6 +106,11 @@
                   <tr>
                     <td colspan="2">
                       <%= f.submit 'Contact Us' %>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <em>* indicates a required field</em>
                     </td>
                   </tr>
                 </table>
